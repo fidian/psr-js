@@ -178,7 +178,7 @@ Lastly, if you have `[[]`, `[]]`, `[ ]`, `[*]`, or `[#]` in your rules, it will 
 [dependencies-image]: https://david-dm.org/fidian/psr-js.png
 [Dev Dependencies]: https://david-dm.org/fidian/psr-js#info=devDependencies
 [devdependencies-image]: https://david-dm.org/fidian/psr-js/dev-status.png
-[NPM]: https://npmjs.org/package/psr-js
-[npm-image]: https://nodei.co/npm/psr-js.png?downloads=true&stars=true
+[NPM]: https://npmjs.org/package/psr
+[npm-image]: https://nodei.co/npm/psr.png?downloads=true&stars=true
 [Travis CI]: http://travis-ci.org/fidian/psr-js?branch=master
 [travis-image]: https://secure.travis-ci.org/fidian/psr-js.png
