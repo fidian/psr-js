@@ -1,0 +1,43 @@
+{
+    "name": "psr",
+    "version": "0.0.1",
+    "author": "Tyler Akins <fidian@rumkin.com>",
+    "description": "Build realistic words and sentences based on a set of rules.",
+    "homepage": "https://github.com/fidian/psr-js",
+    "contributors": [
+        "Tyler Akins <fidian@rumkin.com> (http://rumkin.com)"
+    ],
+    "main": "./lib/psr.js",
+    "bin": {
+        "psr": "./bin/psr.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fidian/psr-js.git"
+    },
+    "keywords": [
+        "psr",
+        "phrase",
+        "structure",
+        "rule",
+        "grammar"
+    ],
+    "dependencies": {
+        "option-parser": "*",
+        "process-files": "*"
+    },
+    "devDependencies": {
+        "fid-umd": "~2.0.0",
+        "jasmine-node": "~2.0.0"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6",
+        "npm": "*"
+    },
+    "scripts": {
+        "test": "jasmine-node lib",
+        "umd": "fid-umd lib/psr.js",
+        "watch": "jasmine-node --autotest lib"
+    }
+}
