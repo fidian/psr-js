@@ -1,0 +1,51 @@
+# An odd dice example.  It was made to show how you can use the weights
+# on rules in order to achieve the right balance.
+#
+# The number of sides and the number of rolls are indicated with "1d6",
+# which says we rolled a six-sided die only once.  This notation is used by
+# many role playing games.
+
+* DICE
+1d4: [1D4]\n1d6: [1D6]\n1d8: [1D8]\n1d10: [1D10]\n1d12: [1D12]\n1d20: [1D20]
+
+* 1D4
+1
+2
+3
+4
+
+* 1D6
+4:[1D4]
+5
+6
+
+* 1D8
+6:[1D6]
+7
+8
+
+* 1D10
+[1-9]
+10
+
+* 1D12
+9:[1-9]
+3:1[0-2]
+
+* 1D20
+9:[1-9]
+10:1[0-9]
+20
+
+* 0-2
+0
+1
+2
+
+* 1-9
+8:[1D8]
+9
+
+* 0-9
+0
+9:[1-9]

@@ -1,0 +1,60 @@
+# Generate a Bell-style phone number
+# (xxx) yyy-zzzz
+# Also known as the North American Numbering Plan
+
+* NANP_PHONE_NUMBER
+([NPA]) [NXX]-[0-9][0-9][0-9][0-9]
+
+# Numbering Plan Area Code
+* NPA
+[2-9][0-8][0-9]
+
+# Central Office (Exchange) Code
+* NXX
+# Avoiding x11 because geographic area codes restrict it
+9:[2-9][NOT_ONE][0-9]
+1:[2-9]1[NOT_ONE]
+
+* NOT_ONE
+0
+2
+3
+4
+5
+6
+7
+8
+9
+
+* 0-9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+* 2-9
+2
+3
+4
+5
+6
+7
+8
+9
+
+* 0-8
+0
+1
+2
+3
+4
+5
+6
+7
+8
