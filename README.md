@@ -7,6 +7,11 @@ Phrase structure rule (PSR) grammar is for you!  Luckily you found this project,
 
 Briefly, PSR will expand a rule into text.  The text may refer to other rules and those are expanded, recursively.  This approach is generally based on tree structures.
 
+[![NPM][npm-image]][NPM]
+[![Build Status][travis-image]][Travis CI]
+[![Dependencies][dependencies-image]][Dependencies]
+[![Dev Dependencies][devdependencies-image]][Dev Dependencies]
+
 
 Command-Line Usage
 ------------------
@@ -167,3 +172,13 @@ The file format also supports long lines -- just use something like this:
     the end.
 
 Lastly, if you have `[[]`, `[]]`, `[ ]`, `[*]`, or `[#]` in your rules, it will convert that into just the `[`, `]`, a space, `*`, or `#` character, respectively.  Newlines can be added by using `\n`.
+
+
+[Dependencies]: https://david-dm.org/fidian/psr-js
+[dependencies-image]: https://david-dm.org/fidian/psr-js.png
+[Dev Dependencies]: https://david-dm.org/fidian/psr-js#info=devDependencies
+[devdependencies-image]: https://david-dm.org/fidian/psr-js/dev-status.png
+[NPM]: https://npmjs.org/package/psr-js
+[npm-image]: https://nodei.co/npm/psr-js.png?downloads=true&stars=true
+[Travis CI]: http://travis-ci.org/fidian/psr-js?branch=master
+[travis-image]: https://secure.travis-ci.org/fidian/psr-js.png
